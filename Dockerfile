@@ -1,4 +1,6 @@
-FROM python:3
-WORKDIR /lab2
-COPY 12.py /lab2/lab2.py
-ENTRYPOINT ["python3", "lab2.py"]
+FROM node:16
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+CMD ["node", "app.js"]
