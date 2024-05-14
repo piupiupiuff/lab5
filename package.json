@@ -1,0 +1,22 @@
+{
+  "name": "@piupiupiuff/lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piupiupiuff/lab2.git"
+  },
+  "keywords": [
+    "qwe"
+  ],
+  "author": "qwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piupiupiuff/lab2/issues"
+  },
+  "homepage": "https://github.com/piupiupiuff/lab2#readme"
+}
